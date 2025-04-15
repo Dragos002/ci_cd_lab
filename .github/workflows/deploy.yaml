@@ -23,7 +23,6 @@ jobs:
 
       - name: Run tests
         run: go test ./...
-
   compile:
     runs-on: ubuntu-latest
     steps:
